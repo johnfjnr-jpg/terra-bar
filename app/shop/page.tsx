@@ -76,16 +76,10 @@ export default function ShopPage() {
             </div>
 
             <div
+              className="tb-shop-fan-container"
               style={{
                 background: 'var(--tb-cream-deep)',
                 border: '1px solid color-mix(in srgb, var(--tb-ink) 14%, transparent)',
-                padding: 40,
-                position: 'relative',
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center',
-                gap: 20,
-                minHeight: 480,
               }}
             >
               {BARS.map((b, i) => (

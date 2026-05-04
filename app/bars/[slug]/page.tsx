@@ -119,7 +119,7 @@ export default async function BarDetailPage({ params }: { params: Promise<{ slug
         {/* Origin switcher */}
         <section style={{ paddingBottom: 96 }}>
           <div className="tb-eyebrow" style={{ marginBottom: 20 }}>Switch origin</div>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4,1fr)', gap: 16 }}>
+          <div className="tb-origin-switcher">
             {BARS.map((b, i) => (
               <Link
                 key={b.id}
